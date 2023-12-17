@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>604653522168-j17881f4i83memghb9go5cocviomdr8e.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.604653522168-j17881f4i83memghb9go5cocviomdr8e</string>
+	<key>API_KEY</key>
+	<string>AIzaSyACEWktSoQbllNGCYhSQQTyKYRXsSzBB2w</string>
+	<key>GCM_SENDER_ID</key>
+	<string>604653522168</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.foseja</string>
+	<key>PROJECT_ID</key>
+	<string>foseja</string>
+	<key>STORAGE_BUCKET</key>
+	<string>foseja.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:604653522168:ios:9ff188bd76c29f17ffff0d</string>
+</dict>
+</plist>

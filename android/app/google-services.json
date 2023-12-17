@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "604653522168",
+    "project_id": "foseja",
+    "storage_bucket": "foseja.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604653522168:android:276849444f355d85ffff0d",
+        "android_client_info": {
+          "package_name": "com.example.foseja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604653522168-4mrit0c647l6081q516vbju5jtppk3ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD85LPS5i-ytV57CiBFtKpG-dUAG8W13is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604653522168-4mrit0c647l6081q516vbju5jtppk3ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604653522168-j17881f4i83memghb9go5cocviomdr8e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foseja"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604653522168:android:d3739b95b5f923efffff0d",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604653522168-4mrit0c647l6081q516vbju5jtppk3ju.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD85LPS5i-ytV57CiBFtKpG-dUAG8W13is"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604653522168-4mrit0c647l6081q516vbju5jtppk3ju.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "604653522168-j17881f4i83memghb9go5cocviomdr8e.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foseja"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
