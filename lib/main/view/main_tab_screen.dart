@@ -52,7 +52,6 @@ class MainTabScreenState extends ConsumerState<MainTabScreen> {
 
   @override
   Widget build(BuildContext context) {
-    print(ref.watch(authRepo).user?.uid);
     return Scaffold(
       body: screens[_selectedIdx],
       backgroundColor: BACKGROUND_COLOR,
@@ -120,7 +119,7 @@ class _Title extends StatelessWidget {
       style: TextStyle(
         fontSize: 50,
         fontWeight: FontWeight.bold,
-        color: PRIMARY_COLOR,
+        color: DEFAULT_TEXT_COLOR,
       ),
     );
   }

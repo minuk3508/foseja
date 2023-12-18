@@ -17,6 +17,13 @@ class AuthViewModel extends AsyncNotifier<void> {
       () async => await _repo.signInWithGoogle(),
     );
   }
+
+  Future<void> appleAuth() async {
+    state = const AsyncValue.loading();
+    state = await AsyncValue.guard(
+      () async => await _repo.signInWithApple(),
+    );
+  }
 }
 
 final authProvider = AsyncNotifierProvider<AuthViewModel, void>(

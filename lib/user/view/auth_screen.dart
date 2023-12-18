@@ -64,7 +64,8 @@ class AuthScreen extends ConsumerWidget {
                         width: 20,
                       ),
                       GestureDetector(
-                        onTap: () => {},
+                        onTap: () =>
+                            ref.read(authProvider.notifier).appleAuth(),
                         child: Container(
                           padding: const EdgeInsets.all(15),
                           decoration: const BoxDecoration(
