@@ -1,7 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:foseja/auth/repo/auth_repo.dart';
+import 'package:foseja/auth/auth_repo.dart';
+import 'package:foseja/user/user_vm.dart';
 
 class AuthViewModel extends AsyncNotifier<void> {
   late final AuthRepo _repo;
@@ -13,15 +14,23 @@ class AuthViewModel extends AsyncNotifier<void> {
 
   Future<void> googleAuth() async {
     state = const AsyncValue.loading();
+    final user = ref.read(userProvider.notifier);
     state = await AsyncValue.guard(
-      () async => await _repo.signInWithGoogle(),
+      () async {
+        final userCredential = await _repo.signInWithGoogle();
+        await user.createUser(userCredential);
+      },
     );
   }
 
   Future<void> appleAuth() async {
     state = const AsyncValue.loading();
+    final user = ref.read(userProvider.notifier);
     state = await AsyncValue.guard(
-      () async => await _repo.signInWithApple(),
+      () async {
+        final userCredential = await _repo.signInWithApple();
+        await user.createUser(userCredential);
+      },
     );
   }
 }

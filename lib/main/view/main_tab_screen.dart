@@ -3,7 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:foseja/auth/repo/auth_repo.dart';
 import 'package:foseja/common/const/colors.dart';
 import 'package:foseja/main/view/setting_screen.dart';
 
@@ -47,7 +46,6 @@ class MainTabScreenState extends ConsumerState<MainTabScreen> {
   @override
   void initState() {
     super.initState();
-    ref.read(authRepo);
   }
 
   @override

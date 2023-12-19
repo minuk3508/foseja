@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:foseja/auth/repo/auth_repo.dart';
+import 'package:foseja/auth/auth_repo.dart';
 
 class SettingScreen extends ConsumerWidget {
   const SettingScreen({super.key});

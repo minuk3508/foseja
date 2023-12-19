@@ -5,7 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:foseja/common/const/colors.dart';
 import 'package:foseja/common/layout/default_layout.dart';
-import 'package:foseja/user/view/auth_vm.dart';
+import 'package:foseja/auth/auth_vm.dart';
 
 class AuthScreen extends ConsumerWidget {
   const AuthScreen({super.key});

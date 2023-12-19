@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:foseja/auth/repo/auth_repo.dart';
+import 'package:foseja/auth/auth_repo.dart';
 import 'package:foseja/main/view/main_tab_screen.dart';
-import 'package:foseja/user/view/auth_screen.dart';
+import 'package:foseja/auth/auth_screen.dart';
 import 'package:go_router/go_router.dart';
 
 final routerProvider = Provider(

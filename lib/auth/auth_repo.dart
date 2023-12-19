@@ -24,8 +24,8 @@ class AuthRepo {
     return await _firebaseAuth.signInWithCredential(credential);
   }
 
-  Future<void> signInWithApple() async {
-    await FirebaseAuth.instance.signInWithProvider(AppleAuthProvider());
+  Future<UserCredential> signInWithApple() async {
+    return await FirebaseAuth.instance.signInWithProvider(AppleAuthProvider());
   }
 
   Future<void> signOut() async {
