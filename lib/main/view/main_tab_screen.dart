@@ -5,6 +5,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:foseja/common/const/colors.dart';
 import 'package:foseja/main/view/setting_screen.dart';
+import 'package:foseja/user/user_screen.dart';
 
 class MainTabScreen extends ConsumerStatefulWidget {
   const MainTabScreen({super.key});
@@ -31,9 +32,7 @@ class MainTabScreenState extends ConsumerState<MainTabScreen> {
     const Center(
       child: Text('DASHBOARD'),
     ),
-    const Center(
-      child: Text('MY INFO'),
-    ),
+    const UserScreen(),
     const SettingScreen(),
   ];
 

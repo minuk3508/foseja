@@ -17,7 +17,7 @@ class UserRepo {
     }
   }
 
-//get
+//read
   Future<Map<String, dynamic>?> getUser(String uid) async {
     final doc = await _userCollection.doc(uid).get();
     return doc.data();
